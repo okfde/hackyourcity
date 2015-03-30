@@ -1,0 +1,43 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+
+@import "mixins";
+@import "variables";
+@import "../css/sprite.scss";
+
+
+@import "bootstrap";
+@import "slick";
+@import "slick-theme";
+
+@import "overrides";
+
+
+@import "base";
+
+@media (max-width: $screen-xs-max) {
+
+	@import "breakpoints/screen-xs";
+
+}
+
+@media (min-width: $screen-sm-min) and (max-width: $screen-sm-max) { 
+	
+	@import "breakpoints/screen-sm";
+
+}
+
+@media (min-width: $screen-md-min) and (max-width: $screen-md-max) { 
+
+	@import "breakpoints/screen-md";
+
+}
+
+@media (min-width: $screen-lg-min) { 
+
+	@import "breakpoints/screen-lg";
+
+}
+

@@ -1,0 +1,383 @@
+/*=============================
+=            Fonts            =
+=============================*/
+
+@font-face{font-family:"DINWeb";src:url('../fonts/DINWeb.eot')}
+@font-face{font-family:"DINWeb";src:url('../fonts/DINWeb.woff') format("woff")}
+@font-face{font-family:"DINWeb-Bold";src:url('../fonts/DINWeb-Bold.eot')}
+@font-face{font-family:"DINWeb-Bold";src:url('../fonts/DINWeb-Bold.woff') format("woff")}
+@font-face{font-family:"DINWeb-CondBold";src:url('../fonts/DINWeb-CondBold.eot')}
+@font-face{font-family:"DINWeb-CondBold";src:url('../fonts/DINWeb-CondBold.woff') format("woff")}
+
+/*-----  End of Fonts  ------*/
+
+/*===============================
+=            General            =
+===============================*/
+
+/**
+*
+* Header
+*
+**/
+
+.page-about {
+
+	.navbar-brand {
+		@extend .svg-h4c_logo_small;
+		@extend .svg-h4c_logo_small-dims;
+	}
+
+}
+
+@include page-lab-logo ('ber');
+@include page-lab-logo ('dor');
+@include page-lab-logo ('dre');
+@include page-lab-logo ('kar');
+
+.link-more {
+	font-size: $font-size-small;
+	text-transform: uppercase; 
+}
+
+footer {
+	padding: 150px 0 50px 0;
+	background-color: white; 
+}
+
+/*-----  End of General  ------*/
+
+
+/*============================
+=            Modules         =
+============================*/
+
+/**
+*
+* Herovideo
+*
+**/
+
+.hero-video {
+	position: relative;
+}
+
+.hero-video-container {
+	position: relative; 
+}
+
+.hero-video-overlay {
+	position: absolute;
+	right: 0;
+	left: 0;
+	top: 0; 
+	left: 0;
+}
+
+.hero-video-overlay-wj {
+	position: absolute;
+	bottom: 30px; 
+	right: 60px;
+}
+
+.hero-video-overlay-h4c {
+	position: absolute;
+	margin: auto;
+	left:0;
+	right:0;
+	top:0;
+	bottom:0;
+}
+
+.navbar {
+	z-index: 999;
+}
+
+.section-intro {
+	.container {
+		padding: 100px 0 50px 0;
+	}
+}
+
+.section-labs {
+	.container {
+		padding: 50px 0 50px 0;
+	}
+}
+.section-newsletter {
+	.container {
+		padding: 150px 0 150px 0;
+	}
+}
+
+.section-projects {
+	.container {
+		padding: 50px 0 0 0;
+	}
+}
+
+
+/**
+*
+* WJ2025 & Hashtags
+*
+**/
+
+.logo-wj {
+	margin-bottom: 60px;
+}
+
+.hashtag {
+	color: white;
+	display: inline-block;
+	padding: 5px 30px 0 6px;
+}
+
+.hashtag-1 {
+	background-color: $wj_yellow; 
+}
+
+.hashtag-2 {
+	background-color: black; 	
+}
+
+
+/**
+*
+* Lab teasers 
+*
+**/
+
+
+.panel-square-wrap {
+
+	position: relative;
+
+	&:after {
+		content:"";
+		display: block;
+		padding-top: 100%;
+	}
+
+}
+
+.panel-lab-teaser {
+	
+	position: absolute;
+	width: 100%;
+	height: 100%;
+
+	border-style: solid;
+	border-width: 3px;
+
+	text-align: center; 
+
+	h3 {
+		margin-top: 20px;
+	}
+
+}
+
+.panel-lab1 {
+
+	@include panel-lab-teaser($lab1_primary);
+
+}
+
+.panel-lab2 {
+	
+	@include panel-lab-teaser($lab2_primary);
+
+}
+
+.panel-lab3 {
+	
+	@include panel-lab-teaser($lab3_primary);
+
+}
+
+.panel-lab4 {
+	
+	@include panel-lab-teaser($lab4_primary);
+
+}
+
+/**
+*
+* Porjects
+*
+**/
+
+.thumbnail-project {
+	
+	position: relative;
+	margin-bottom: 0;
+
+	.overlay {
+		
+		width: 100%;
+		height: 100%;
+		position: absolute;
+		top: 0;
+		left: 0;
+
+	}
+
+	.caption {
+		color: white;
+		position: relative;
+		height: 100%;
+	}
+
+	.caption-title {
+		  position: absolute;
+		  top: 50%;
+		  left: 50%;
+		  transform: translate(-50%, -50%);
+	}
+
+	.caption-body {
+		display: none;
+	}
+
+	&:hover .overlay {
+		
+		background-color: RGBA(255,255,255,0.9);
+		.caption {
+			color: black;
+		}
+
+		.caption-title {
+		  position: relative;
+		  top: inherit;
+		  left: inherit;
+		  transform: none;
+		}
+
+		.caption-body {
+			display: inline;
+		}
+
+	}
+
+}
+
+/*-----  End of Modules  ------*/
+
+/*======================================
+=            The About Page            =
+======================================*/
+
+.section-faq {
+
+	background-color: $h4c_grey_dark;
+	
+	.container {
+		padding: 100px 0 100px 0;
+	}
+
+}
+
+.section-about {
+
+	.container {
+		padding: 100px 0 100px 0;
+	}
+
+}
+
+.section-initiators {
+
+	color: white; 
+
+	.container {
+		padding: 100px 0 100px 0;
+	}
+
+}
+
+.col-initiator-1 {
+	background-color: $initiator_color1;
+}
+
+.col-initiator-2 {
+	background-color: $initiator-color2;	
+}
+
+.panel-heading-faq {
+
+	text-transform: uppercase;
+	
+	a {
+	}
+
+}
+
+
+/*-----  End of The About Page  ------*/
+
+
+
+/*=====================================
+=            The Lab Pages            =
+=====================================*/
+
+/**
+*
+* Berlin 
+*
+**/
+
+.page-lab-ber {
+
+	.navbar {
+		background-color: $lab1_primary;
+	}
+
+}
+
+/**
+*
+* Karlsruhe
+*
+**/
+
+.page-lab-kr {
+
+	.navbar {
+		background-color: $lab2_primary;
+	}
+	
+}
+
+
+/**
+*
+* Dresden / Leipzig
+*
+**/
+
+.page-lab-dl {
+
+	.navbar {
+		background-color: $lab3_primary;
+	}
+	
+}
+
+/**
+*
+* Dortmund / Wuppertal
+*
+**/
+
+.page-lab-dw {
+
+	.navbar {
+		background-color: $lab4_primary; 
+	}
+	
+}
+
+/*-----  End of The Lab Pages  ------*/
+

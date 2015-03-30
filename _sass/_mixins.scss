@@ -1,0 +1,35 @@
+@mixin panel-lab-teaser($color) {
+
+	border-color:  $color;
+
+	&:hover {
+		background-color: $color;
+		color: white;
+		a, a:hover, a:visited, a:focus {
+			color: white;
+		}
+	}
+
+	a, a:hover, a:visited, a:focus {
+		color: $color;
+	}
+
+}
+
+@mixin page-lab-logo($lab) {
+
+	.page-lab-#{$lab} {
+
+		.navbar-brand {
+			@extend .svg-h4c_logo_#{$lab}_big;
+			@extend .svg-h4c_logo_#{$lab}_big-dims;
+		}
+
+		.navbar-fixed .navbar-brand {
+			@extend .svg-h4c_logo_#{$lab}_small;
+			@extend .svg-h4c_logo_#{$lab}_small-dims;
+		}
+
+	}
+
+}

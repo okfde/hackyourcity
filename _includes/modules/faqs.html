@@ -1,0 +1,12 @@
+<div class="panel-group" id="accordion">
+{% for faq in site.faqs %}
+	<div class="panel panel-faq">
+		<h2 class="panel-heading-faq" id="heading-{{ forloop.index }}">
+			<a data-toggle="collapse" data-parent="#accordion" href="#collapse-{{ forloop.index }}" aria-expanded="false" aria-controls="collapse-{{ forloop.index }}">{{ faq.question }}</a>
+		</h2>
+		<div id="collapse-{{ forloop.index }}" class="collapse" role="tabpanel" aria-labelledby="heading-{{ forloop.index }}">
+			{{ faq.content }}
+		</div>
+	</div>
+{% endfor %}
+</div>

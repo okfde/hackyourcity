@@ -1,0 +1,65 @@
+---
+layout: default
+---
+
+<body class="page-lab page-lab-{{ page.lab }}">
+    <!--[if lt IE 8]>
+        <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+    {% include header.html %}
+
+    <div class="container container-lab-about">
+      <div class="row">
+        <div class="col-md-3">
+          <img class="img-responsive logo-wj" src="/img/svg/wj2015.svg" alt="Wissenschaftsjahr Zukunftsstadt 2015">
+          {% include modules/hashtags.html %}
+        </div>
+
+        <div class="col-md-9">
+    		{{ content }}
+	    </div>
+
+	  </div>
+	</div>
+
+	<div class="container container-lab-events">
+	  <div class="row">
+
+	    <div class="col-md-3">
+	      <h2>Termine</h2>
+	    </div>
+
+	    <div class="col-md-9">
+	        {% include modules/events.html%}
+	    </div>
+
+	  </div>
+	</div>
+
+	<div class="jumbotron lab-media">
+	  
+	  <h2>Fotos &amp; Videos</h2>
+
+	  {% include modules/slider.html%}
+
+	</div>
+
+	<div class="container container-lab-partner">
+	  
+	  <h2>Projekt Partner</h2>
+	  <div class="row">
+	    <div class="col-md-12">
+
+	        {% include modules/partner.html%}
+
+	    </div>
+	  </div>
+
+	</div>		
+
+    {% include footer.html %}
+
+</body>
+
+

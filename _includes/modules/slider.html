@@ -1,0 +1,14 @@
+<div class="slick-slider">
+
+{% for slide in page.slider %}
+
+	{% case slide.type %}
+		{% when 'image' %}
+		    <img src="{{ slide.imgsrc }}" alt="{{ slide.alt }}">
+		{% when 'embed' %}
+		    <div>{{ slide.code }}</div>
+	{% endcase %}
+
+{% endfor %}
+
+</div>

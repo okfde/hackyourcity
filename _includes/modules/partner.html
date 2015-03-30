@@ -1,0 +1,5 @@
+<ul class="list-inline">
+{% for partner in page.partners %}
+  <li><a href="{{ partner.url }}"><img src="{{ partner.imgsrc }}" alt="partner.name"></a></li>
+{% endfor %}
+</ul>
