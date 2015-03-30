@@ -178,11 +178,16 @@ footer {
 
 }
 
+// Berlin
+
+
 .panel-lab1 {
 
 	@include panel-lab-teaser($lab1_primary);
 
 }
+
+// Dortmund
 
 .panel-lab2 {
 	
@@ -190,11 +195,16 @@ footer {
 
 }
 
+// Karlsruhe
+
+
 .panel-lab3 {
 	
 	@include panel-lab-teaser($lab3_primary);
 
 }
+
+// Dresden
 
 .panel-lab4 {
 	
@@ -322,11 +332,7 @@ footer {
 =            The Lab Pages            =
 =====================================*/
 
-/**
-*
-* Berlin 
-*
-**/
+// Berlin
 
 .page-lab-ber {
 
@@ -336,28 +342,20 @@ footer {
 
 }
 
-/**
-*
-* Karlsruhe
-*
-**/
+// Dortmund
 
-.page-lab-kr {
+.page-lab-dor {
 
 	.navbar {
-		background-color: $lab2_primary;
+		background-color: $lab2_primary; 
 	}
 	
 }
 
 
-/**
-*
-* Dresden / Leipzig
-*
-**/
+// Karlsruhe
 
-.page-lab-dl {
+.page-lab-kar {
 
 	.navbar {
 		background-color: $lab3_primary;
@@ -365,19 +363,18 @@ footer {
 	
 }
 
-/**
-*
-* Dortmund / Wuppertal
-*
-**/
 
-.page-lab-dw {
+// Dresden
+
+.page-lab-dre {
 
 	.navbar {
-		background-color: $lab4_primary; 
+		background-color: $lab4_primary;
 	}
 	
 }
+
+
 
 /*-----  End of The Lab Pages  ------*/
 
