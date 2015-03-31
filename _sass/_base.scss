@@ -571,14 +571,15 @@ label[for=mce-EMAIL] {
 		position: absolute;
 		overflow: hidden;
 
-		width: 878px;
+		width: 678px;
 		height: 1218px;
-		background-image: url(../img/svg/map_lab1.svg);
-  		
+		background: url(../img/svg/map_lab1.svg) no-repeat;
+  		background-position-x: 200px;
+
 		// Needs conditional for IE and Opera (not supported)
   		mix-blend-mode: multiply;
 		top: -200px;
-		right: -200px;
+		right: 0;
 	}
 
 	.slick-slider {
