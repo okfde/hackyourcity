@@ -1,5 +1,5 @@
 ---
-question: Raw denim Portland Neutra ?
+question: Ich bin kein Hacker. Kann ich mitmachen?
 ---
 
-Raw denim Portland Neutra, hella tattooed asymmetrical viral mustache XOXO Pinterest normcore tilde. Leggings kale chips Thundercats, meditation Schlitz Wes Anderson taxidermy asymmetrical scenester typewriter chia. Blog trust fund tilde fingerstache tote bag, ethical literally drinking vinegar meditation banh mi. Cardigan swag cronut Godard direct trade, bicycle rights beard meh gluten-free freegan semiotics occupy Intelligentsia. Wolf kitsch actually bitters photo booth, typewriter chambray. Typewriter American Apparel ugh keytar, listicle put a bird on it fanny pack DIY. Cornhole letterpress Odd Future, four dollar toast kale chips artisan meditation mumblecore photo booth fanny pack.
+Jeder kann bei Hack your City teilnehmen! Du brauchst keinen Hintergrund in Stadtplanung oder IT, aber wenn Du es hast, grandios! Das Wichtigste ist, dass Du interessiert bist mit an der Stadt der Zukunft zu bauen und begierig bist im Team etwas zu entwickeln.
