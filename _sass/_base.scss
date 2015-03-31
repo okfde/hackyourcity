@@ -49,6 +49,7 @@
 .nav > li > a {
 
 	text-transform: uppercase;
+	color: $black;
 
 	&:hover {
 		background: transparent;
@@ -63,11 +64,10 @@
 	right: 0;
 	z-index: 9999;
 	margin-bottom: 0;
-
+	
 	.nav > li > a {
 		color: white;
 	}
-	
 }
 
 
@@ -97,6 +97,10 @@ h2 {
 }
 
 .content-body {
+	h1, h2, h3 {
+		margin-top: 0;
+	}
+
 	img {
 		margin: 100px 0 100px 0;
 	}
@@ -289,34 +293,26 @@ footer {
 
 
 .panel-lab1 {
-
 	@include panel-lab-teaser($lab1_primary);
-
 }
 
 // Dortmund
 
 .panel-lab2 {
-	
 	@include panel-lab-teaser($lab2_primary);
-
 }
 
 // Karlsruhe
 
 
 .panel-lab3 {
-	
 	@include panel-lab-teaser($lab3_primary);
-
 }
 
 // Dresden
 
 .panel-lab4 {
-	
 	@include panel-lab-teaser($lab4_primary);
-
 }
 
 /**
@@ -334,10 +330,12 @@ footer {
 }
 
 #mc_embed_signup {
+
 	input {
 		height: 110px;
 	}
 	margin: 0 auto;
+
 }
 
 label[for=mce-EMAIL] {
@@ -345,18 +343,22 @@ label[for=mce-EMAIL] {
 }
 
 #mce-EMAIL {
+
 	font-size: $fs-large; 
 	display: block;
 	text-align: center;
 	width: 100%;
+
 }
 
 #mc-embedded-subscribe {
+
 	font-size: $fs-large;
 	display: block;
 	background: $h4c_grey_dark;
 	color: white;
 	width: 100%;
+
 }
 
 
@@ -382,19 +384,23 @@ label[for=mce-EMAIL] {
 	}
 
 	.caption {
+
 		color: white;
 		position: relative;
 		height: 100%;
 		padding: 60px;
+
 	}
 
 	.caption-title {
+
 		  margin: 0;
 		  font-size: $fs-large;
 		  position: absolute;
 		  top: 50%;
 		  left: 50%;
 		  transform: translate(-50%, -50%);
+
 	}
 
 	.caption-body {
@@ -409,11 +415,13 @@ label[for=mce-EMAIL] {
 		}
 
 		.caption-title {
+
 		  position: relative;
 		  top: inherit;
 		  left: inherit;
 		  transform: none;
 		  margin-bottom: 50px;
+
 		}
 
 		.caption-body {
@@ -441,18 +449,11 @@ label[for=mce-EMAIL] {
 }
 
 .panel-heading-faq {
-
 	text-transform: uppercase;
-	
-	a {
-	}
-
 }
 
 .panel-body-faq {
-
 	font-size: $fs-medium;
-
 }
 
 
@@ -505,16 +506,43 @@ label[for=mce-EMAIL] {
 	.container {
 		padding: 75px 0 150px 0;
 	}
+
+	.event-title {
+		margin-bottom: 70px;
+	}
+
+	.event-date, .event-location {
+		font-size: $fs-large;
+	}
+
+	.event-location {
+		margin-bottom: 80px;
+	}
+
+	.event-signup {
+		font-size: $fs-large; 
+		
+		height: 110px;
+		line-height: 110px;
+		
+		padding: 0 60px;
+		
+		color: white;
+		&:hover, &:active, &:focus, &:visited {
+			color: white;
+		}
+	}
 	
 }
 
 .section-lab-slider {
 	
 	h2 {
+		margin: 0 0 60px 0;
 		color: white;
 	}
-	
-	padding: 75px 0;	
+
+	padding: 60px 0 150px 0;	
 
 }
 
@@ -528,51 +556,25 @@ label[for=mce-EMAIL] {
 
 
 // Berlin
-
 .page-lab-ber {
-
-	.navbar, .section-lab-slider {
-		background-color: $lab1_primary;
-	}
-
-	.content-body, .section-lab-partner {
-		h2,h3,h3 {
-			color: $lab1_primary;
-		}
-	}
-
+	@include page-lab-colorscheme($lab1_primary);
 }
 
 // Dortmund
-
 .page-lab-dor {
-
-	.navbar {
-		background-color: $lab2_primary; 
-	}
-	
+	@include page-lab-colorscheme($lab2_primary);
 }
 
 
 // Karlsruhe
-
 .page-lab-kar {
-
-	.navbar {
-		background-color: $lab3_primary;
-	}
-	
+	@include page-lab-colorscheme($lab3_primary);
 }
 
 
 // Dresden
-
 .page-lab-dre {
-
-	.navbar {
-		background-color: $lab4_primary;
-	}
-	
+	@include page-lab-colorscheme($lab4_primary);
 }
 
 
