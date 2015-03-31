@@ -175,14 +175,14 @@ footer {
 *
 **/
 
-html, body, .section-video, .hero-video, .hero-video-container, .empty-spacer {
+html, body, .hero-video, .hero-video-container {
   height: 100%;
 }
 
-.hero-video-container {
-	position: inherit !important;
+.section-video {
+	height: 80%;
+	position: relative;
 }
-
 
 .hero-video-overlay-wj {
 	position: absolute;
