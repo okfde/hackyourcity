@@ -7,6 +7,8 @@ $(document).ready(function(){
         $logo.attr('alt','Hack your city').attr('src','/img/svg/h4c_logo_big_lab'+zuffi+'.svg');
     }
 
+
+
 	$('.sticky-stuff').stick_in_parent({ 
 		offset_top: 100,
 		bottoming: true

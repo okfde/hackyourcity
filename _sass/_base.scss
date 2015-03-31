@@ -21,6 +21,10 @@
 *
 **/
 
+body{
+  height: 100%;
+}
+
 .navbar {
 	padding-left: 60px;
 	padding-right: 60px;
@@ -156,12 +160,13 @@ footer {
 *
 **/
 
-.hero-video {
-	position: relative;
+.section-video, .hero-video{
+  height: 100%;
 }
 
 .hero-video-container {
-	position: relative; 
+	position: relative;
+    min-height: 100%;
 }
 
 .hero-video-overlay {
