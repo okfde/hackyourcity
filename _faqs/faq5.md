@@ -1,5 +1,5 @@
 ---
-question: Muss ich mich anmelden?
+question: Ich habe bei der Auftaktveranstaltung keine Zeit. Kann ich trotzdem am Lab teilnehmen?
 ---
 
-Raw denim Portland Neutra, hella tattooed asymmetrical viral mustache XOXO Pinterest normcore tilde. Leggings kale chips Thundercats, meditation Schlitz Wes Anderson taxidermy asymmetrical scenester typewriter chia. Blog trust fund tilde fingerstache tote bag, ethical literally drinking vinegar meditation banh mi. Cardigan swag cronut Godard direct trade, bicycle rights beard meh gluten-free freegan semiotics occupy Intelligentsia. Wolf kitsch actually bitters photo booth, typewriter chambray. Typewriter American Apparel ugh keytar, listicle put a bird on it fanny pack DIY. Cornhole letterpress Odd Future, four dollar toast kale chips artisan meditation mumblecore photo booth fanny pack.
+Natürlich! Direkt auf den Seiten von Lab Berlin (links), Lab Karlsruhe (links), Lab Ruhrgebiet (links) und Lab Ost findest du Termine für das erste Treffen.
