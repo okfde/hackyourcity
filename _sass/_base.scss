@@ -21,10 +21,6 @@
 *
 **/
 
-body{
-  height: 100%;
-}
-
 .navbar {
 	padding-left: 60px;
 	padding-right: 60px;
@@ -165,22 +161,14 @@ footer {
 *
 **/
 
-.section-video, .hero-video{
+html, body, .section-video, .hero-video, .hero-video-container, .empty-spacer {
   height: 100%;
 }
 
 .hero-video-container {
-	position: relative;
-    height: 300px;
+	position: inherit !important;
 }
 
-.hero-video-overlay {
-	position: absolute;
-	right: 0;
-	left: 0;
-	top: 0; 
-	left: 0;
-}
 
 .hero-video-overlay-wj {
 	position: absolute;
