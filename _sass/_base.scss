@@ -101,6 +101,11 @@ h2 {
 }
 
 .content-body {
+
+	a {
+		text-decoration: underline;
+	}
+
 	h1, h2, h3 {
 		margin-top: 0;
 	}
@@ -296,7 +301,6 @@ footer {
 
 // Berlin
 
-
 .panel-lab1 {
 	@include panel-lab-teaser($lab1_primary);
 }
@@ -308,7 +312,6 @@ footer {
 }
 
 // Karlsruhe
-
 
 .panel-lab3 {
 	@include panel-lab-teaser($lab3_primary);
@@ -410,6 +413,10 @@ label[for=mce-EMAIL] {
 
 	.caption-body {
 		display: none;
+
+		a {
+			// text-decoration: underline;
+		}
 	}
 
 	&:hover .overlay {
@@ -455,6 +462,7 @@ label[for=mce-EMAIL] {
 
 .panel-heading-faq {
 	text-transform: uppercase;
+	margin-top: 0;
 }
 
 .panel-body-faq {
@@ -472,7 +480,11 @@ label[for=mce-EMAIL] {
 
 .section-initiators {
 
-	color: white; 
+	color: white;
+
+	a {
+		color: white; 
+	} 
 
 	.container {
 		padding: 100px 0 100px 0;
@@ -547,7 +559,27 @@ label[for=mce-EMAIL] {
 		color: white;
 	}
 
-	padding: 60px 0 150px 0;	
+	padding: 60px 0 150px 0;
+
+	position: relative;
+
+	&:after {
+		content:"";
+		display: block;
+		position: absolute;
+		overflow: hidden;
+
+		width: 878px;
+		height: 1218px;
+		background-image: url(../img/svg/map.svg);
+
+		top: -200px;
+		right: -200px;
+	}
+
+	.slick-slider {
+		z-index: 999;
+	}	
 
 }
 
