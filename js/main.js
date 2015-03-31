@@ -7,7 +7,33 @@ $(document).ready(function(){
         $logo.attr('alt','Hack your city').attr('src','/img/svg/h4c_logo_big_lab'+zuffi+'.svg');
     }
 
+    //sticky header on lab pages
+    if($('.page-lab').length > 0){
 
+        var $navBar = $('.navbar');
+        var nvH = $navBar.height();
+
+        $( document ).scroll(function() {
+            var scrollTop = $(document).scrollTop();
+
+            if(scrollTop >= nvH){
+                //add sticky header
+
+                if(!$navBar.hasClass('navbar-fixed')){
+                    $navBar.addClass('navbar-fixed');
+                }
+
+            } else {
+                //remove sticky header
+
+                if($navBar.hasClass('navbar-fixed')){
+                    $navBar.removeClass('navbar-fixed');
+                }
+
+            }
+
+        });
+    }
 
 	$('.sticky-stuff').stick_in_parent({ 
 		offset_top: 100,
