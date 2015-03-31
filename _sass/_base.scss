@@ -21,9 +21,64 @@
 *
 **/
 
+.navbar {
+	padding-left: 60px;
+	padding-right: 60px;
+	margin-bottom: 0;
+	min-height: 390px;
+}
+
+
+.page-home .navbar , .navbar.navbar-fixed {
+	min-height: 130px;
+}
+
+.navbar-header  {
+	margin-top: 60px
+}
+
+.navbar-right  {
+	margin-top: 45px
+}
+
+.navbar-nav > li > a {
+	padding: 0;
+	margin: 0;
+}
+
+.nav > li > a {
+
+	text-transform: uppercase;
+
+	&:hover {
+		background: transparent;
+	}
+
+}
+
+.page-home .navbar {
+		
+	position: absolute;
+	left: 0;
+	right: 0;
+	z-index: 9999;
+	margin-bottom: 0;
+
+	.nav > li > a {
+		color: white;
+	}
+	
+}
+
+
 .page-about {
 
 	.navbar-brand {
+		@extend .svg-h4c_logo_big;
+		@extend .svg-h4c_logo_big-dims;
+	}
+
+	.navbar-fixed .navbar-brand {
 		@extend .svg-h4c_logo_small;
 		@extend .svg-h4c_logo_small-dims;
 	}
@@ -35,14 +90,53 @@
 @include page-lab-logo ('dre');
 @include page-lab-logo ('kar');
 
+h2 {
+
+	text-transform: uppercase;
+
+}
+
+.content-body {
+	img {
+		margin: 100px 0 100px 0;
+	}
+}
+
 .link-more {
 	font-size: $font-size-small;
 	text-transform: uppercase; 
 }
 
+/**
+*
+* Footer
+*
+**/
+
+
 footer {
+	
 	padding: 150px 0 50px 0;
 	background-color: white; 
+
+	.footer-initiator-logos li {
+		margin-right: 40px;
+		
+		&:last-child {
+			margin-right: 0;
+		}
+
+	}
+
+	.nav {
+		float: right;
+		font-size: $fs-small;
+		text-transform: uppercase;
+
+	}
+
+	
+
 }
 
 /*-----  End of General  ------*/
@@ -172,8 +266,21 @@ footer {
 
 	text-align: center; 
 
-	h3 {
+	.event-lab {
 		margin-top: 20px;
+		text-transform: uppercase;
+	}
+
+	.event-title {
+		
+		margin: 0;
+
+	}
+
+	.event-date {
+
+		margin: 0;
+
 	}
 
 }
@@ -214,7 +321,48 @@ footer {
 
 /**
 *
-* Porjects
+* Newsletter Sign-up
+*
+**/
+
+.section-newsletter {
+
+	h2 {
+		margin: 100px 0 0 0;
+	}
+
+}
+
+#mc_embed_signup {
+	input {
+		height: 110px;
+	}
+	margin: 0 auto;
+}
+
+label[for=mce-EMAIL] {
+	display:none;
+}
+
+#mce-EMAIL {
+	font-size: $fs-large; 
+	display: block;
+	text-align: center;
+	width: 100%;
+}
+
+#mc-embedded-subscribe {
+	font-size: $fs-large;
+	display: block;
+	background: $h4c_grey_dark;
+	color: white;
+	width: 100%;
+}
+
+
+/**
+*
+* Projects
 *
 **/
 
@@ -237,9 +385,12 @@ footer {
 		color: white;
 		position: relative;
 		height: 100%;
+		padding: 60px;
 	}
 
 	.caption-title {
+		  margin: 0;
+		  font-size: $fs-large;
 		  position: absolute;
 		  top: 50%;
 		  left: 50%;
@@ -262,6 +413,7 @@ footer {
 		  top: inherit;
 		  left: inherit;
 		  transform: none;
+		  margin-bottom: 50px;
 		}
 
 		.caption-body {
@@ -288,6 +440,22 @@ footer {
 
 }
 
+.panel-heading-faq {
+
+	text-transform: uppercase;
+	
+	a {
+	}
+
+}
+
+.panel-body-faq {
+
+	font-size: $fs-medium;
+
+}
+
+
 .section-about {
 
 	.container {
@@ -304,25 +472,16 @@ footer {
 		padding: 100px 0 100px 0;
 	}
 
-}
-
-.col-initiator-1 {
-	background-color: $initiator_color1;
-}
-
-.col-initiator-2 {
-	background-color: $initiator-color2;	
-}
-
-.panel-heading-faq {
-
-	text-transform: uppercase;
-	
-	a {
+	.row {
+		@include initiator-gradient($initiator_color1, $initiator_color2)
 	}
 
 }
+.col-initiator {
+	
+	padding: 60px;
 
+}
 
 /*-----  End of The About Page  ------*/
 
@@ -332,12 +491,54 @@ footer {
 =            The Lab Pages            =
 =====================================*/
 
+
+.section-lab-about {
+
+	.container {
+		padding: 100px 0 75px 0;
+	}
+
+}
+
+.section-lab-events {
+
+	.container {
+		padding: 75px 0 150px 0;
+	}
+	
+}
+
+.section-lab-slider {
+	
+	h2 {
+		color: white;
+	}
+	
+	padding: 75px 0;	
+
+}
+
+.section-lab-partner {
+	
+	.container {
+		padding: 0;
+	}
+	
+}
+
+
 // Berlin
 
 .page-lab-ber {
 
-	.navbar {
+	.navbar, .section-lab-slider {
 		background-color: $lab1_primary;
+	}
+
+	.content-body, .section-lab-partner {
+		h2,h3,h3 {
+			color: $lab1_primary;
+		}
 	}
 
 }

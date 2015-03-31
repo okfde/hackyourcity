@@ -33,3 +33,11 @@
 	}
 
 }
+
+@mixin initiator-gradient($start: #f1f1f1, $stop: #d9d9d9) { 
+	background: $start;
+	background: -webkit-linear-gradient(left,$start,$start 50%,$stop 50%,$stop 100%);
+	background: -moz-linear-gradient(left,$start 50%,$stop 50%);
+	background-image: -webkit-gradient(linear,left top,right top,color-stop(0,$start),color-stop(50%,$start),color-stop(50%,$stop),color-stop(100%,$stop));
+	background-image: -webkit-linear-gradient(left,$start,$start 50%,$stop 50%,$stop 100%);
+}

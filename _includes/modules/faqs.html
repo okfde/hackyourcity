@@ -4,7 +4,8 @@
 		<h2 class="panel-heading-faq" id="heading-{{ forloop.index }}">
 			<a data-toggle="collapse" data-parent="#accordion" href="#collapse-{{ forloop.index }}" aria-expanded="false" aria-controls="collapse-{{ forloop.index }}">{{ faq.question }}</a>
 		</h2>
-		<div id="collapse-{{ forloop.index }}" class="collapse" role="tabpanel" aria-labelledby="heading-{{ forloop.index }}">
+		<div id="collapse-{{ forloop.index }}" class="collapse  {% if forloop.index == 1 %} in {% endif %}
+ panel-body-faq" role="tabpanel" aria-labelledby="heading-{{ forloop.index }}">
 			{{ faq.content }}
 		</div>
 	</div>

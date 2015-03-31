@@ -9,54 +9,72 @@ layout: default
 
     {% include header.html %}
 
-    <div class="container container-lab-about">
-      <div class="row">
-        <div class="col-md-3">
-          <img class="img-responsive logo-wj" src="/img/svg/wj2015.svg" alt="Wissenschaftsjahr Zukunftsstadt 2015">
-          {% include modules/hashtags.html %}
-        </div>
+    <div class="section-lab-about">
 
-        <div class="col-md-9">
-    		{{ content }}
-	    </div>
+	    <div class="container">
+	      <div class="row">
+	        <div class="col-md-3">
+	          <img class="img-responsive logo-wj" src="/img/svg/wj2015.svg" alt="Wissenschaftsjahr Zukunftsstadt 2015">
+	          {% include modules/hashtags.html %}
+	        </div>
 
-	  </div>
+	        <div class="col-md-9">
+	        	<div class="content-body">
+	    			{{ content }}
+	    		</div>
+		    </div>
+
+		  </div>
+		</div>
+	
 	</div>
 
-	<div class="container container-lab-events">
-	  <div class="row">
+    <div class="section-lab-events">
 
-	    <div class="col-md-3">
-	      <h2>Termine</h2>
-	    </div>
+		<div class="container">
+		  <div class="row">
 
-	    <div class="col-md-9">
-	        {% include modules/events.html%}
-	    </div>
+		    <div class="col-md-3">
+		      <h2>Termine</h2>
+		    </div>
 
-	  </div>
+		    <div class="col-md-9">
+		        {% include modules/events.html%}
+		    </div>
+
+		  </div>
+		</div>
+	
 	</div>
 
-	<div class="jumbotron lab-media">
-	  
-	  <h2>Fotos &amp; Videos</h2>
+	<div class="section-lab-slider">
 
-	  {% include modules/slider.html%}
+		<div class="lab-media">
+		  
+		  <h2 class="text-center">Fotos &amp; Videos</h2>
+
+		  {% include modules/slider.html%}
+
+		</div>
 
 	</div>
 
-	<div class="container container-lab-partner">
-	  
-	  <h2>Projekt Partner</h2>
-	  <div class="row">
-	    <div class="col-md-12">
+	<div class="section-lab-partner">
 
-	        {% include modules/partner.html%}
+		<div class="container">
+		  
+		  <h2 class="text-center">Projekt Partner</h2>
+		  <div class="row">
+		    <div class="col-md-12">
 
-	    </div>
-	  </div>
+		        {% include modules/partner.html%}
 
-	</div>		
+		    </div>
+		  </div>
+
+		</div>	
+
+	<div>	
 
     {% include footer.html %}
 

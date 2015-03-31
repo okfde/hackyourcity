@@ -1,5 +1,6 @@
 ---
 layout: default
+title: Home
 ---
 
 <body class="page-home">
@@ -7,9 +8,9 @@ layout: default
         <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
 
-    {% include header.html %}
     <div class="section-video">
-      <div class="jumbotron hero-video">
+      {% include header.html %}
+      <div class="hero-video">
           <div class="hero-video-container">
             <img class="img-responsive" src="/img/hero.jpg" alt="Aufsicht auf eine Strassenreuzung">
           </div>
@@ -26,7 +27,7 @@ layout: default
           </div>
           <div class="col-md-9">
             Wieviel Land braucht die Stadt? Wie wohnen wir in Zukunft 
-            zusammen? Wie grün werden unsere Städte sein? Wie ernähren wir uns in der Stadt der Zukunft? Wie bewegen wir uns in Zukunft durch die Stadt? Um solche und ähnliche Fragen geht es bei Hack Your City einem Projekt im Rahmen des Wissenschaftsjahres 2015 – Zukunftsstadt. Der wissenschaftliche Nachwuchs sowie Bürgerinnen und Bürger aus unterschiedlichen Disziplinen sind dazu aufgerufen, gemeinsam Probleme in ihren Städten zu identifizieren und anzupacken. <a class="link-more" href="/about">Weiterlesen...</a>
+            zusammen? Wie grün werden unsere Städte sein? Wie ernähren wir uns in der Stadt der Zukunft? Wie bewegen wir uns in Zukunft durch die Stadt? Um solche und ähnliche Fragen geht es bei Hack Your City einem Projekt im Rahmen des <a href="https://www.wissenschaftsjahr-zukunftsstadt.de/">Wissenschaftsjahres 2015 – Zukunftsstadt</a>. Der wissenschaftliche Nachwuchs sowie Bürgerinnen und Bürger aus unterschiedlichen Disziplinen sind dazu aufgerufen, gemeinsam Probleme in ihren Städten zu identifizieren und anzupacken. <a class="link-more" href="/about">Weiterlesen...</a>
           </div>
         </div>
       </div>
@@ -40,11 +41,12 @@ layout: default
             <div class="panel-square-wrap">
               <div class="panel panel-lab-teaser panel-lab1">
                 <div class="panel-heading">
-                  <h3>Berlin</h3>
+                  <h3 class="event-lab">Berlin</h3>
                   <br>
                 </div>
                 <div class="panel-body">
-                  Kickoff<br>9-10 Mai
+                  <h2 class="event-title">Kickoff</h2>
+                  <h3 class="event-date" >9-10 Mai</h3>
                 </div>
                 <div class="panel-footer">
                   <a class="link-more" href="labs/berlin">&gt; Mehr Infos...</a>
@@ -57,10 +59,11 @@ layout: default
             <div class="panel-square-wrap">
               <div class="panel panel-lab-teaser panel-lab2">
                 <div class="panel-heading">
-                  <h3>Dortmund / Wuppertal</h3>
+                  <h3 class="event-lab">Dortmund / Wuppertal</h3>
                 </div>
                 <div class="panel-body ">
-                  Kickoff<br>9-10 Mai
+                  <h2 class="event-title">Kickoff</h2>
+                  <h3 class="event-date" >9-10 Mai</h3>
                 </div>
                 <div class="panel-footer">
                   <a class="link-more" href="labs/dortmund-wuppertal">&gt; Mehr Infos...</a>
@@ -73,11 +76,12 @@ layout: default
             <div class="panel-square-wrap">
               <div class="panel panel-lab-teaser panel-lab3">
                 <div class="panel-heading">
-                  <h3>Karlsruhe</h3>
+                  <h3 class="event-lab">Karlsruhe</h3>
                   <br>
                 </div>
                 <div class="panel-body">
-                  Kickoff<br>9-10 Mai
+                  <h2 class="event-title">Kickoff</h2>
+                  <h3 class="event-date" >9-10 Mai</h3>
                 </div>
                 <div class="panel-footer">
                   <a class="link-more" href="labs/karlsruhe">&gt; Mehr Infos...</a>
@@ -90,11 +94,11 @@ layout: default
             <div class="panel-square-wrap">
               <div class="panel panel-lab-teaser panel-lab4">
                 <div class="panel-heading">
-                  <h3>Dresden / Leipzig</h3>
-                  <br>
+                  <h3 class="event-lab">Dresden / Leipzig</h3>
                 </div>
                 <div class="panel-body">
-                  Kickoff<br>9-10 Mai
+                  <h2 class="event-title">Kickoff</h2>
+                  <h3 class="event-date" >9-10 Mai</h3>
                 </div>
                 <div class="panel-footer">
                   <a class="link-more" href="labs/dresden-leipzig">&gt; Mehr Infos...</a>
@@ -118,9 +122,9 @@ layout: default
                 <form action="#" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
                   <div id="mc_embed_signup_scroll">
                     <div class="mc-field-group cf">
-                      <label for="mce-EMAIL">Email Address</label>
-                      <input type="email" value="" placeholder="e-mail Adresse" name="EMAIL" class="required email" id="mce-EMAIL">
-                      <input type="submit" value="Eintragen" name="subscribe" id="mc-embedded-subscribe" class="button">
+                      <label for="mce-EMAIL">E-mail Address</label>
+                      <input type="email" value="" placeholder="E-mail Adresse" name="EMAIL" class="required email" id="mce-EMAIL">
+                      <input type="submit" value="Anmelden" name="subscribe" id="mc-embedded-subscribe" class="button">
                     </div>
                   </div>
                   <div id="mce-responses" class="clear">
@@ -139,7 +143,7 @@ layout: default
 
     <div class="section-projects">
       <div class="container-fluid">
-        <h2>Citizen science projects</h2>
+        <h2 class="text-center">Citizen science projects</h2>
         <div class="row">
           
           <div class="col-md-6 col-project">

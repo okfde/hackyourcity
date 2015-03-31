@@ -1,5 +1,5 @@
 %svg-common {
-	background: url(svg/sprite.css-b14ccb49.svg) no-repeat;
+	background: url(svg/sprite.css-e2692f1b.svg) no-repeat;
 }
 
 .svg-h4c_logo_ber_big {
@@ -14,7 +14,7 @@
 
 .svg-h4c_logo_ber_small {
 	@extend %svg-common;
-	background-position: 9.649427282193683% 23.103448275862068%;
+	background-position: 8.98513251454428% 19.734904270986746%;
 }
 
 .svg-h4c_logo_ber_small-dims {
@@ -22,9 +22,19 @@
 	height: 22px;
 }
 
+.svg-h4c_logo_big {
+	@extend %svg-common;
+	background-position: 18.676539206053448% 24.533379354569085%;
+}
+
+.svg-h4c_logo_big-dims {
+	width: 212.122px;
+	height: 197.937px;
+}
+
 .svg-h4c_logo_dor_big {
 	@extend %svg-common;
-	background-position: 21.690243017772943% 31.728665207877462%;
+	background-position: 27.306397306397308% 43.884892086330936%;
 }
 
 .svg-h4c_logo_dor_big-dims {
@@ -34,7 +44,7 @@
 
 .svg-h4c_logo_dor_small {
 	@extend %svg-common;
-	background-position: 36.84582743988685% 48.10344827586207%;
+	background-position: 41.2693193028609% 55.670103092783506%;
 }
 
 .svg-h4c_logo_dor_small-dims {
@@ -44,7 +54,7 @@
 
 .svg-h4c_logo_dre_big {
 	@extend %svg-common;
-	background-position: 49.87663024321466% 63.457330415754925%;
+	background-position: 53.377049180327866% 69.96402877697842%;
 }
 
 .svg-h4c_logo_dre_big-dims {
@@ -54,7 +64,7 @@
 
 .svg-h4c_logo_dre_small {
 	@extend %svg-common;
-	background-position: 62.31173380035026% 73.10344827586206%;
+	background-position: 64.92829204693612% 77.02503681885125%;
 }
 
 .svg-h4c_logo_dre_small-dims {
@@ -64,7 +74,7 @@
 
 .svg-h4c_logo_kar_big {
 	@extend %svg-common;
-	background-position: 77.92445911257792% 95.18599562363238%;
+	background-position: 79.52380952380952% 96.0431654676259%;
 }
 
 .svg-h4c_logo_kar_big-dims {
@@ -74,7 +84,7 @@
 
 .svg-h4c_logo_kar_small {
 	@extend %svg-common;
-	background-position: 92.19581411848174% 98.10344827586206%;
+	background-position: 92.74406332453826% 98.379970544919%;
 }
 
 .svg-h4c_logo_kar_small-dims {
@@ -84,7 +94,7 @@
 
 .svg-h4c_logo_small {
 	@extend %svg-common;
-	background-position: 99.9727347087158% 99.98784630488879%;
+	background-position: 99.9745525011949% 99.98961816188451%;
 }
 
 .svg-h4c_logo_small-dims {

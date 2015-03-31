@@ -1,7 +1,3 @@
-.jumbotron {
-	padding: 0;
-}
-
 .panel {
 	-webkit-box-shadow: none;
 	box-shadow: none;
@@ -26,4 +22,8 @@
 .col-project {
 	padding-left: 0;
 	padding-right: 0;
+}
+
+input {
+	border: none;
 }

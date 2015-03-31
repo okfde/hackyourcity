@@ -19,3 +19,10 @@ sass:
 collections: 
 - termine
 - faqs
+
+exclude:
+- node_modules
+- package.json
+- gulpfile.js
+- h4c.sublime-project
+- h4c.sublime-workspace

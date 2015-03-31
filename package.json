@@ -1,0 +1,10 @@
+{
+  "devDependencies": {
+    "gulp": "^3.8.11",
+    "gulp-svg-sprite": "^1.0.20",
+    "gulp-svgo": "^0.1.1",
+    "gulp-uglifyjs": "^0.6.1",
+    "vinyl": "^0.4.6",
+    "vivus": "^0.2.0"
+  }
+}
