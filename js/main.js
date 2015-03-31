@@ -1,8 +1,15 @@
 $(document).ready(function(){
-    
+
+    //add random logo on home page
+    if($('.page-home').length > 0){
+        var zuffi = Math.floor((Math.random() * 4) + 1);
+        var $logo = $('.logo-h4c');
+        $logo.attr('alt','Hack your city').attr('src','/img/svg/h4c_logo_big_lab'+zuffi+'.svg');
+    }
+
 	$('.sticky-stuff').stick_in_parent({ 
 		offset_top: 100,
-		bottoming: true,
+		bottoming: true
 		});
 
 	$('.slick-slider').slick({
@@ -26,6 +33,8 @@ $(document).ready(function(){
 	          // instead of a settings object
 	        ]
 	});
+
+
   
 });
 
