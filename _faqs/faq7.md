@@ -1,5 +1,5 @@
 ---
-question: Muss ich mich anmelden?
+question: Ich will bei Hack your City! in Dresden mitmachen, was muss ich beachten?
 ---
 
-Raw denim Portland Neutra, hella tattooed asymmetrical viral mustache XOXO Pinterest normcore tilde. Leggings kale chips Thundercats, meditation Schlitz Wes Anderson taxidermy asymmetrical scenester typewriter chia. Blog trust fund tilde fingerstache tote bag, ethical literally drinking vinegar meditation banh mi. Cardigan swag cronut Godard direct trade, bicycle rights beard meh gluten-free freegan semiotics occupy Intelligentsia. Wolf kitsch actually bitters photo booth, typewriter chambray. Typewriter American Apparel ugh keytar, listicle put a bird on it fanny pack DIY. Cornhole letterpress Odd Future, four dollar toast kale chips artisan meditation mumblecore photo booth fanny pack.
+Hack your City! wird in Dresden in Kooperation mit Jugend hackt Ost veranstaltet und richtet sich speziell an Jugendliche zwischen 12 und 18 Jahren. Die Veranstaltung und die Anmeldung funktionieren deshalb ein bisschen anders. Mehr Details zur Veranstaltung gibt es <a href="http://jugendhackt-de.okblogfarm.org/events/hack-your-city…gend-hackt-ost">HIER</a>. Allgemeine Infos finden sich <a href="http://jugendhackt.de/fragen-und-antworten">HIER</a> und zur Anmeldung geht es <a href="http://jugendhackt-de.okblogfarm.org/anmeldung-fur-…gend-hackt-ost">HIER LANG</a>.
