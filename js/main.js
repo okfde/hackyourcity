@@ -4,7 +4,7 @@ $(document).ready(function(){
     if($('.page-home').length > 0){
         var zuffi = Math.floor((Math.random() * 4) + 1);
         var $logo = $('.logo-h4c');
-        $logo.attr('alt','Hack your city').attr('src','/img/svg/h4c_logo_big_lab'+zuffi+'.svg');
+        $logo.attr('src','/img/svg/h4c_logo_big_lab'+zuffi+'.svg');
     }
 
     //sticky header on lab pages
