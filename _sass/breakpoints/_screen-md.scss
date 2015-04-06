@@ -4,3 +4,100 @@
 	right: 60px;
 	left: inherit;
 }
+
+.hero-video-overlay-h4c {
+	max-width: 80%;
+	max-height: 80%;
+}
+
+.hero-video-overlay-wj {
+	bottom: 30px;
+}
+
+.section-initiators {
+	.row {
+		@include initiator-gradient($initiator_color1, $initiator_color2)
+	}
+}
+
+.thumbnail-project {
+	
+	.caption {
+		padding: 15px;
+	}
+
+	&:hover .overlay {
+		.caption-title {
+			margin-bottom: 15px;
+		}
+	}
+	
+	.caption-title {
+		font-size: $fs-regular;
+	}
+
+	.caption-body {
+		font-size: $fs-medium;
+	}
+
+}
+
+
+.section-lab-slider {
+
+	position: relative;
+
+	&:after {
+		content:"";
+		display: block;
+		position: absolute;
+		overflow: hidden;
+
+		width: 678px;
+		height: 1218px;
+		background: url(../img/svg/map_lab1.svg) no-repeat;
+  		background-position-x: 200px;
+
+  		mix-blend-mode: multiply;
+		top: -200px;
+		right: 0;
+	}
+
+	.slick-slider {
+		z-index: 99;
+	}	
+
+}
+
+
+footer {
+	
+	padding: 150px 0 50px 0;
+	background-color: white; 
+
+	.footer-initiator-logos li {
+		text-align: left;
+		margin-right: 40px;
+		display: inline-block;
+		
+		img {
+			width: inherit;
+		}
+
+		&:last-child {
+			margin-right: 0;
+		}
+
+
+
+	}
+
+	.nav {
+		float: right;
+		li {
+			display: inline-block;
+		}
+	}
+
+}
+

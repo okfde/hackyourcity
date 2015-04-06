@@ -5,3 +5,16 @@
 .col-md-3.sticky-stuff {
 	// position: static;
 }
+
+.thumbnail-project {
+	
+	.caption {
+		padding: 30px;
+	}
+
+	&:hover .overlay {
+		.caption-title {
+			margin-bottom: 20px;
+		}
+	}
+}

@@ -1,4 +1,70 @@
-.section-video {
-	height: 80%;
-	position: relative;
+.thumbnail-project {
+	
+	.overlay {
+		width: 100%;
+		height: 100%;
+		position: absolute;
+		top: 0;
+		left: 0;	
+	}
+
+	.caption {
+
+		color: white;
+		position: relative;
+		height: 100%;
+		padding: 60px;
+
+	}
+
+	.caption-title {
+
+		  margin: 0;
+		  position: absolute;
+		  top: 50%;
+		  left: 50%;
+		  transform: translate(-50%, -50%);
+
+	}
+
+	.caption-body {
+		display: none;
+
+		a {
+			// text-decoration: underline;
+		}
+	}
+
+	&:hover .overlay {
+		
+		background-color: RGBA(255,255,255,0.9);
+		.caption {
+			color: $black;
+		}
+
+		.caption-title {
+
+		  position: relative;
+		  top: inherit;
+		  left: inherit;
+		  transform: none;
+		  margin-bottom: 50px;
+
+		}
+
+		.caption-body {
+			display: inline;
+		}
+
+	}
+
+}
+
+.section-lab-events {
+
+	.event-signup {
+		font-size: $fs-large; 
+		padding: 0 60px;
+	}
+
 }

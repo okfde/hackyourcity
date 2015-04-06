@@ -41,3 +41,8 @@
 
 }
 
+@media (min-width: $screen-xlg-min) { 
+
+	@import "breakpoints/screen-xlg";
+
+}

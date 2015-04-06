@@ -1,0 +1,20 @@
+.thumbnail-project {
+	
+	.caption {
+		padding: 60px;
+	}
+
+	&:hover .overlay {
+		.caption-title {
+			margin-bottom: 50px;
+		}
+	}
+
+	.caption-title {
+		font-size: $fs-large;
+	}
+
+	.caption-body {
+		font-size: $fs-regular;
+	}
+}

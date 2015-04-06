@@ -10,6 +10,7 @@
 
 .panel-footer {
 	padding: 0;
+	border: none;
 }
 
 .thumbnail {
@@ -27,4 +28,13 @@ input {
 
 a:focus {
 	outline: none;
+}
+
+.slick-slide {
+	max-height: 400px;
+}
+
+.navbar-collapse {
+	border-top: none;
+	box-shadow: none;
 }
