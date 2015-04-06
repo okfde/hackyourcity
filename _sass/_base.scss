@@ -125,9 +125,10 @@ h2 {
 	}
 }
 
-.link-more {
+a.link-more {
 	font-size: $font-size-small;
 	text-transform: uppercase; 
+	text-decoration: none;
 }
 
 /**
@@ -180,23 +181,29 @@ html, body, .hero-video, .hero-video-container {
 }
 
 .section-video {
-	height: 80%;
+	height: 100%;
 	position: relative;
 }
 
 .hero-video-overlay-wj {
 	position: absolute;
+	margin: 0 auto; 
 	bottom: 30px; 
-	right: 60px;
+	right: 0;
+	left: 0;
+	.logo-wj {
+		margin-bottom: 0;
+	}
 }
 
 .hero-video-overlay-h4c {
+	max-width: 80%;
 	position: absolute;
 	margin: auto;
 	left:0;
 	right:0;
-	top:0;
-	bottom:0;
+	top:30px;
+	// bottom:0;
 }
 
 .navbar {
@@ -205,24 +212,28 @@ html, body, .hero-video, .hero-video-container {
 
 .section-intro {
 	.container {
-		padding: 100px 0 50px 0;
+		padding-top: 100px;
+		padding-bottom: 50px;
 	}
 }
 
 .section-labs {
 	.container {
-		padding: 50px 0 50px 0;
+		padding-top: 50px;
+		padding-bottom: 50px;
 	}
 }
 .section-newsletter {
 	.container {
-		padding: 150px 0 150px 0;
+		padding-top: 150px;
+		padding-bottom: 150px;
 	}
 }
 
 .section-projects {
 	.container {
-		padding: 50px 0 0 0;
+		padding-top: 50px;
+		padding-bottom: 0;
 	}
 }
 
@@ -235,6 +246,7 @@ html, body, .hero-video, .hero-video-container {
 
 .logo-wj {
 	margin-bottom: 60px;
+	display: block;
 }
 
 .hashtag {
@@ -457,7 +469,8 @@ label[for=mce-EMAIL] {
 	background-color: $h4c_grey_dark;
 	
 	.container {
-		padding: 100px 0 100px 0;
+		padding-top: 100px;
+		padding-bottom: 100px;
 	}
 
 }
@@ -475,7 +488,8 @@ label[for=mce-EMAIL] {
 .section-about {
 
 	.container {
-		padding: 100px 0 100px 0;
+		padding-top: 100px;
+		padding-bottom: 100px;
 	}
 
 }
@@ -489,7 +503,8 @@ label[for=mce-EMAIL] {
 	} 
 
 	.container {
-		padding: 100px 0 100px 0;
+		padding-top: 100px;
+		padding-bottom: 100px;
 	}
 
 	.row {
@@ -515,7 +530,8 @@ label[for=mce-EMAIL] {
 .section-lab-about {
 
 	.container {
-		padding: 100px 0 75px 0;
+		padding-top: 100px;
+		padding-bottom: 75px;
 	}
 
 }
@@ -523,7 +539,8 @@ label[for=mce-EMAIL] {
 .section-lab-events {
 
 	.container {
-		padding: 75px 0 150px 0;
+		padding-top: 75px;
+		padding-bottom: 150px;
 	}
 
 	.event-title {
@@ -561,7 +578,8 @@ label[for=mce-EMAIL] {
 		color: white;
 	}
 
-	padding: 60px 0 150px 0;
+	padding-top: 60px;
+	padding-bottom: 150px;
 
 	position: relative;
 
@@ -591,7 +609,8 @@ label[for=mce-EMAIL] {
 .section-lab-partner {
 	
 	.container {
-		padding: 0;
+		padding-top: 0;
+		padding-bottom: 0;	
 	}
 	
 }

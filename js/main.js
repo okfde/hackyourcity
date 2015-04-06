@@ -35,10 +35,10 @@ $(document).ready(function(){
         });
     }
 
-	$('.sticky-stuff').stick_in_parent({ 
+	/*$('.sticky-stuff').stick_in_parent({ 
 		offset_top: 100,
 		bottoming: true
-		});
+		});*/
 
 	$('.slick-slider').slick({
 	      dots: true,

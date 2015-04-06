@@ -23,13 +23,13 @@
 
 }
 
-@media (min-width: $screen-sm-min) and (max-width: $screen-sm-max) { 
+@media (min-width: $screen-sm-min) { 
 	
 	@import "breakpoints/screen-sm";
 
 }
 
-@media (min-width: $screen-md-min) and (max-width: $screen-md-max) { 
+@media (min-width: $screen-md-min) { 
 
 	@import "breakpoints/screen-md";
 

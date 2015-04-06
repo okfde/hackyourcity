@@ -13,15 +13,14 @@ layout: default
 
 	    <div class="container">
 	      <div class="row">
-	        <div class="col-md-3">
-	          <img class="img-responsive logo-wj" src="/img/svg/wj2015.svg" alt="Wissenschaftsjahr Zukunftsstadt 2015">
-	          {% include modules/hashtags.html %}
-	        </div>
-
-	        <div class="col-md-9">
+	        <div class="col-md-9 col-md-push-3">
 	        	<div class="content-body">
 	    			{{ content }}
 	    		</div>
+		    </div>
+		    <div class="col-md-3 col-md-pull-9">
+		      <img class="img-responsive logo-wj" src="/img/svg/wj2015.svg" alt="Wissenschaftsjahr Zukunftsstadt 2015">
+		      {% include modules/hashtags.html %}
 		    </div>
 
 		  </div>
