@@ -1,8 +1,8 @@
 ---
 lab: ber
 name: Kickoff Berlin
-date: 9-10 Mai
-location: SPD München
-url: http://www.meetup.com/code-for-muenchen/events/220971601/
+date: 9. - 10. Mai 2015
+location: Infarm, Glogauer Straße 6, 10999 Berlin
+url: https://www.eventbrite.com/e/hack-your-city-berlin-tickets-16216673507
 ---
 

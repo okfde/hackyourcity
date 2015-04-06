@@ -1,8 +1,8 @@
 ---
 lab: dor
-name: Kickoff Drotmund
-date: 9-10 Mai
-location: SPD München, Oberanger 38, 80331 München
-url: http://www.meetup.com/code-for-muenchen/events/220971601/
+name: Kickoff Dortmund
+date: 30. - 31 Mai 2015
+location: Dortmunder U, Leonie-Reygers-Terrasse, 44137 Dortmund
+url: https://www.eventbrite.com/e/hack-your-city-dortmund-tickets-16217357553
 ---
 
