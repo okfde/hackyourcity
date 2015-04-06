@@ -1,6 +1,5 @@
 ---
-question: Wer sind die Organisatoren? 
+question: Weitere Fragen? 
 ---
 
-Organisatoren von Wissenschaft im Dialog sind Yannick Haan und Thorsten Witt.  
-Organisatorinnen bei der OKF DE ist Julia Kloiber, Maria Reimer und Paula Glaser.
+<a href="mailto:yannick.haan@w-i-d.de">yannick.haan@w-i-d.de</a>

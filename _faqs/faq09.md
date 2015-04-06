@@ -1,5 +1,6 @@
 ---
-question: Ich bin kein Hacker. Kann ich mitmachen?
+question: Wer sind die Organisatoren? 
 ---
 
-Jeder kann bei Hack your City teilnehmen! Du brauchst keinen Hintergrund in Stadtplanung oder IT, aber wenn Du es hast, grandios! Das Wichtigste ist, dass Du interessiert bist mit an der Stadt der Zukunft zu bauen und begierig bist im Team etwas zu entwickeln.
+Organisatoren von Wissenschaft im Dialog sind Yannick Haan und Thorsten Witt.  
+Organisatorinnen bei der OKF DE ist Julia Kloiber, Maria Reimer und Paula Glaser.
