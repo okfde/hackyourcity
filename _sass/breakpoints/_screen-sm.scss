@@ -23,7 +23,9 @@
 		  position: absolute;
 		  top: 50%;
 		  left: 50%;
-		  transform: translate(-50%, -50%);
+		  text-shadow: 0 0 $fs-medium #666;
+		  @include translate(-50%,-50%);
+
 
 	}
 
@@ -43,10 +45,12 @@
 		}
 
 		.caption-title {
-
+		  text-shadow: none;
 		  position: relative;
 		  top: inherit;
 		  left: inherit;
+		  -webkit-transform: none;
+		  -ms-transform: none;
 		  transform: none;
 		  margin-bottom: 50px;
 
