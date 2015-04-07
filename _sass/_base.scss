@@ -73,7 +73,7 @@
 	text-transform: uppercase;
 	color: $black;
 
-	&:hover {
+	&:hover, &:focus, &:active {
 		background: transparent;
 	}
 
@@ -153,6 +153,8 @@ h2 {
 footer {
 	
 	background-color: white; 
+	padding: 50px 0 50px 0;
+
 
 	.footer-initiator-logos li {
 		
@@ -367,7 +369,7 @@ html, body, .hero-video, .hero-video-container {
 .section-newsletter {
 
 	h2 {
-		margin: 100px 0 0 0;
+		text-align: center;	
 	}
 
 }

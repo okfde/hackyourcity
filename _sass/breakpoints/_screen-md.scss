@@ -14,9 +14,22 @@
 	bottom: 30px;
 }
 
+.section-newsletter {
+
+	h2 {
+		margin: 100px 0 0 0;
+	}
+
+}
+
+
 .section-initiators {
 	.row {
 		@include initiator-gradient($initiator_color1, $initiator_color2)
+	}
+
+	.col-initiator-1, .col-initiator-2 {
+		background: transparent;
 	}
 }
 
