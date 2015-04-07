@@ -4,7 +4,7 @@
 
 	{% case slide.type %}
 		{% when 'image' %}
-		    <img src="{{ slide.imgsrc }}" alt="{{ slide.alt }}">
+		    <div><img src="{{ slide.imgsrc }}" alt="{{ slide.alt }}"></div>
 		{% when 'embed' %}
 		    <div>{{ slide.code }}</div>
 	{% endcase %}

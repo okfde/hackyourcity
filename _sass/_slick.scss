@@ -63,7 +63,7 @@
 }
 .slick-slide {
     float: left;
-    height: 100%;
+    height: 400px;
     min-height: 1px;
     [dir="rtl"] & {
         float: right;
@@ -71,7 +71,7 @@
     img {
         display: block;
         max-width: 100%;
-        height: auto;
+        max-height: 100%;
     }
     &.slick-loading img {
         display: none;

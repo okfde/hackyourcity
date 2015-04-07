@@ -68,3 +68,16 @@
 	}
 
 }
+
+.section-lab-partner {
+	
+	li {
+		margin-right: 30px;
+		display:inline-block;
+		max-width: 30%;
+		margin-right: 3%;
+		&:last-child {
+			margin-right: 0;
+		}
+	}
+}
