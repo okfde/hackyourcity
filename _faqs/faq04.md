@@ -2,7 +2,7 @@
 question: Was ist ein Citizen Science Lab?
 ---
 
-Citizen Science Labs sind Räume in denen Ideen und Visionen für Städte entwickelt, erprobt und umgesetzt werden. In den Labs kommen Bürgerinnen und Bürger, Vetreter lokaler Wissenschaftseinrichtungen und Vertreterinnen aus der Politik zusammen, um gemeinsam an neuen Konzepten, Projekten und Lösungen rund um Herausforderungen von Städten zu arbeiten. 
+Citizen Science Labs sind Räume, in denen Ideen und Visionen für Städte entwickelt, erprobt und umgesetzt werden. In den Labs kommen BürgerInnen, Vetreter lokaler Wissenschaftseinrichtungen und VertreterInnen aus der Politik zusammen, um gemeinsam an neuen Konzepten, Projekten und Lösungen rund um Herausforderungen von Städten zu arbeiten. 
 
 Interdisziplinär entwickeln die Akteure im Rahmen der Labs Werkzeuge und Strategien, die dabei helfen, komplexe Herausforderungen in ihren Städten kreativ zu meistern. Zu diesen Herausforderungen gehören Fragestellungen aus den Bereichen Mobilität, Stadtentwicklung, Umwelt, Energienutzung oder der politischen Mitgestaltung.
 
