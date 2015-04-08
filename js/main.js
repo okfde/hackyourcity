@@ -62,7 +62,7 @@ $(document).ready(function(){
 	        ]
 	});
 
-	$('[data-toggle=collapse]').on('click', function() {
+	$('.link-more[data-toggle=collapse]').on('click', function() {
 		$(this).css('display','none');
 	});
   
