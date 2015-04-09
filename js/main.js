@@ -12,22 +12,52 @@ $(document).ready(function(){
 
         var $navBar = $('.navbar');
         var nvH = $navBar.height();
+        var hasBeenIn = false; 
+        var offset = 400;
 
         $( document ).scroll(function() {
             var scrollTop = $(document).scrollTop();
-
-            if(scrollTop >= nvH){
+            if(scrollTop >= nvH ){
                 //add sticky header
 
                 if(!$navBar.hasClass('navbar-fixed')){
                     $navBar.addClass('navbar-fixed');
                 }
 
+
+                if(scrollTop >= nvH + offset ){
+                    //slide in
+                    if(!$navBar.hasClass('navbar-fixed-in')){
+                        $navBar.addClass('navbar-fixed-in');
+                    }
+
+                    if($navBar.hasClass('navbar-fixed-out')){
+                        $navBar.removeClass('navbar-fixed-out');
+                    }
+
+                    hasBeenIn = true;
+
+                } else {
+                    // slide out
+                    if($navBar.hasClass('navbar-fixed-in')){
+                        $navBar.removeClass('navbar-fixed-in');
+                    }
+
+                    if(!$navBar.hasClass('navbar-fixed-out') && hasBeenIn ){
+                        $navBar.addClass('navbar-fixed-out');
+                    }
+
+                }
+
+
             } else {
                 //remove sticky header
 
                 if($navBar.hasClass('navbar-fixed')){
                     $navBar.removeClass('navbar-fixed');
+                    $navBar.removeClass('navbar-fixed-out');
+                    hasBeenIn = false;
+
                 }
 
             }

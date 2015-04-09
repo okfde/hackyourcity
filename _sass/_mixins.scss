@@ -2,16 +2,23 @@
 
 	border-color:  $color;
 
-	&:hover {
+	&:after {
 		background-color: $color;
+	}
+
+	&:hover {
+
 		color: white;
+		
 		a, a:hover, a:visited, a:focus {
 			color: white;
 		}
+	
 	}
 
 	a, a:hover, a:visited, a:focus {
 		color: $color;
+		@include transition(color 0.3s);
 	}
 
 }
