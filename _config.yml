@@ -26,6 +26,3 @@ exclude:
 - gulpfile.js
 - h4c.sublime-project
 - h4c.sublime-workspace
-
-gems:
-  - jekyll-redirect-from
