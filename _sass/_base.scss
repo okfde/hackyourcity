@@ -23,6 +23,7 @@
 
 .navbar {
 
+	background-color: white;
 	padding-left: 60px;
 	padding-right: 60px;
 	margin-bottom: 0;
@@ -46,10 +47,6 @@
 
 .navbar-toggle .icon-bar {
 	background: $black ;
-}
-
-.page-home .navbar-toggle .icon-bar {
-	background: white;
 }
 
 .navbar-fixed + * {
@@ -87,7 +84,8 @@
 }
 
 .page-home .navbar {
-		
+	
+	background: transparent;
 	position: absolute;
 	left: 0;
 	right: 0;
@@ -97,10 +95,18 @@
 	.nav > li > a {
 		color: white;
 	}
+
+	.navbar-toggle .icon-bar {
+		background: white;
+	}
 }
 
 
 .page-about , .page-imprint {
+
+	.navbar {
+		min-height: 300px;
+	}
 
 	.navbar-brand {
 		@extend .svg-h4c_logo_big;
@@ -211,6 +217,8 @@ html, body, .hero-video, .hero-video-container {
 	bottom: 15px; 
 	right: 0;
 	left: 0;
+	max-width: 50%;
+	height: auto;
 }
 
 
@@ -474,7 +482,7 @@ label[for=mce-EMAIL] {
 
 .section-faq {
 
-	background-color: $h4c_grey_dark;
+	background-color: $h4c_grey;
 	
 	.container {
 		padding-top: 100px;

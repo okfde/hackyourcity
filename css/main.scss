@@ -23,6 +23,12 @@
 
 }
 
+@media (max-device-width: $screen-xs-max) and (orientation:landscape) {
+
+	@import "breakpoints/screen-landscape";
+
+}
+
 @media (min-width: $screen-sm-min) { 
 	
 	@import "breakpoints/screen-sm";
