@@ -7,8 +7,11 @@ $(document).ready(function(){
         $logo.attr('src','/img/svg/h4c_logo_big_lab'+zuffi+'.svg');
     }
 
+    /* getting viewport width */
+    var responsive_viewport = $(window).width();
+
     //sticky header on lab pages
-    if($('.page-lab').length > 0){
+    if($('.page-lab').length > 0 && (responsive_viewport >= 768)){
 
         var $navBar = $('.navbar');
         var nvH = $navBar.height();

@@ -29,12 +29,10 @@
 
 		.navbar-brand {
 			@extend .svg-h4c_logo_#{$lab}_big;
-			@extend .svg-h4c_logo_#{$lab}_big-dims;
 		}
 
 		.navbar-fixed .navbar-brand {
 			@extend .svg-h4c_logo_#{$lab}_small;
-			@extend .svg-h4c_logo_#{$lab}_small-dims;
 		}
 
 	}

@@ -1,3 +1,105 @@
+.navbar {
+	padding-left: 60px;
+	padding-right: 60px;
+}
+
+.navbar-header  {
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.navbar-brand {
+	width: inherit;
+	min-height: inherit;
+}
+
+.svg-h4c_logo_big {
+	width: 212.122px;
+	height: 197.938px;
+}
+
+.svg-h4c_logo_small {
+	width: 219.188px;
+	height: 21.859px;
+}
+
+.svg-h4c_logo_ber_big {
+	width: 278px;
+	height: 268px;
+}
+
+.svg-h4c_logo_ber_small {
+	width: 320px;
+	height: 22px;
+}
+
+.svg-h4c_logo_dor_big {
+	width: 444px;
+	height: 268px;
+}
+
+.svg-h4c_logo_dor_small {
+	width: 373px;
+	height: 22px;
+}
+
+.svg-h4c_logo_dre_big {
+	width: 364px;
+	height: 268px;
+}
+
+.svg-h4c_logo_dre_small {
+	width: 346px;
+	height: 22px;
+}
+
+.svg-h4c_logo_kar_big {
+	width: 474px;
+	height: 268px;
+}
+
+.svg-h4c_logo_kar_small {
+	width: 382px;
+	height: 22px;
+}
+
+.navbar-right  {
+	margin-top: 45px
+}
+
+.page-home { 
+
+	.navbar {
+		
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		z-index: 9999;
+		margin-top: 0;
+
+		
+		.nav > li > a {
+			color: white;
+		}
+
+		.navbar-toggle .icon-bar {
+			background: white;
+		}
+	}
+
+	.section-intro .container {
+		padding-top: 100px;
+	}
+
+	.section-intro .container {
+		padding-top: 100px;
+	}
+
+}
+
+
+
 .thumbnail-project {
 	
 	.overlay {
