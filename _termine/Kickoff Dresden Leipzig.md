@@ -2,7 +2,7 @@
 lab: dre
 name: Kickoff Dresden
 date: 5. - 7. Juni 2015
-location: Veranstaltungsort wird Mitte Mai bekannt gegeben
+location: SLUB Dresden, Zellescher Weg 18, 01069 Dresden
 signup-url: http://jugendhackt.de/anmeldung-fur-hack-your-city-meets-jugend-hackt-ost/
 ---
 
