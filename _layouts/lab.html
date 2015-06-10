@@ -27,7 +27,40 @@ layout: default
 		</div>
 	
 	</div>
+	
+	{% if page.links %} 
+	<div class="section-lab-events">
+		<div class="container">
+		  <div class="row">
 
+		    <div class="col-md-3">
+		     	<h2>Ergebnisse</h2>
+		    </div>
+
+		    <div class="col-md-9">
+
+		    	<div class="events">
+			
+					{% for link in page.links %}
+						<a class="event-signup btn btn-signup" href="{{ link.url }}">{{ link.name }}</a>
+						<br><br>
+					{% endfor %}
+
+		    	</div>
+		    </div>
+
+		  </div>
+		</div>
+	</div>
+	{% endif %}
+
+	{% for event in site.termine %}
+  		{% if event.lab == page.lab %}
+			{% assign hasEvents = true %}
+		{% endif %}
+	{% endfor %}
+
+	{% if hasEvents %}
     <div class="section-lab-events">
 
 		<div class="container">
@@ -45,6 +78,7 @@ layout: default
 		</div>
 	
 	</div>
+	{% endif %}
 
 	<div class="section-lab-partner">
 
