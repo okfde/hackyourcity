@@ -182,7 +182,7 @@
 		display:inline-block;
 		max-width: 30%;
 		margin-right: 3%;
-		&:last-child {
+		&:nth-child(3n) {
 			margin-right: 0;
 		}
 	}
